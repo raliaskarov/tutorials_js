@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Metadata goes here -->
+        <title>Common HTML</title>
+        <h1>Common HTML Elements</h1>
+        <h3>This is a demo of common HTML elements</h3>
+
+        <h1>h1 (and Largest) Heading</h1>
+        <h6>h6 (and Smallest) Heading</h6>
+    </head>
+    <body>
+        <!-- Content goes here -->
+         <p>This Text comes in "p" tag </p>
+         <p>This Text has "br" linebreak to demonstrate <br> next line when tag is used </p>
+         <a href="https://www.ibm.com">This is link to IBM</a>
+
+        <!-- If you want a hyperlink to open a certain destination in a new tab, you can do so by adding target="_blank" to the <a> tag as follows: -->
+        <br>
+         <a href="https://www.ibm.com">IBM</a>
+
+        <br><br>
+
+        <!-- Hyperlink to other section on page -->
+        <br>
+        <a href="#section">Link to section</a>
+        <br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h1 id="section">Section</h1>
+
+        <br>
+        <!-- Lists -->
+        <!-- Unordered List -->
+
+        <ul>
+            <li>This is a bullet point </li>
+            <li>The items in this list have no particular order </li>
+            <li>Each item will appear as a bullet, rather than a number </li>
+        </ul>
+
+        <!-- Ordered List -->
+        <ol>
+            <li>This is an ordered list </li>
+            <li>The items in this list have a particular order </li>
+            <li>Each item will be numbered, starting from 1 </li>
+            <li>This is the fourth point in the list </li>
+
+        </ol>
+
+        <br><br><br>
+        <!-- Add Table -->
+        <table>
+            <tr>
+                <th>Heading 1</th>
+                <th>Heading 2</th>
+                <th>Heading 3</th>
+            </tr>
+            <tr>
+                <td>H1 - Data Item 1</td>
+                <td>H2 - Data Item 1</td>
+                <td>H3 - Data Item 1</td>
+            </tr>
+            <tr>
+                <td>H1 - Data Item 2</td>
+                <td>H2 - Data Item 2</td>
+                <td>H3 - Data Item 2</td>
+            </tr>
+            <tr>
+                <td>H1 - Data Item 3</td>
+                <td>H2 - Data Item 3</td>
+                <td>H3 - Data Item 3</td>
+            </tr>
+        </table>
+
+        <br><br><br>
+
+        <br><br><br>
+
+        <!-- Add image -->
+
+        <!-- External Image -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/440px-IBM_logo.svg.png" alt="IBM Logo" width="300" height="300">
+        <br>
+        <p> This is a local image:</p>
+        <!-- Local Images -->
+        <img src="images/Screenshot_2.png" alt="This a local image Logo" width="300" height="300">
+
+        <br><br><br>
+
+        <br><br>
+        <!-- Hyperlink to the top of the page -->         
+        <a href="#">Top of Page</a>
+        <br>
+        <a href="#top">Top of Page</a>
+
+        <!-- Feedback Form -->
+    
+        <h2>Insights Submission Form</h2>
+        <form action="/submit-feedback" method="POST">
+            <fieldset>
+                <legend>Your Insights About Thomas J. Watson Are Valued</legend>
+        
+                <!-- Name Field -->
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+        
+                <!-- Email Field -->
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        
+                <!-- Comments Field -->
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Share your thoughts about Thomas J. Watson"></textarea><br><br>
+        
+                <!-- Submit Button -->
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+        
+        <!-- Article tag -->
+
+        <br><br>
+        <h3> Article tag </h3>
+        <article> And finally this is text within an ARTICLE tag </article>
+    </body>
+</html>
