@@ -117,7 +117,10 @@
                 <!-- Email Field -->
                 <label for="email">Email:</label><br>
                 <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
-        
+                
+                <!-- Height field-->
+                <label for="height">Height: </label>
+                <input type="range" id="height" placeholder="input height"><br><br>
                 <!-- Comments Field -->
                 <label for="comments">Comments:</label><br>
                 <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Share your thoughts about Thomas J. Watson"></textarea><br><br>
@@ -163,6 +166,13 @@
             <h4>Concept Definition</h4>
             <p>This goes over the concept mentioned in the paragraph to provide readers with further explanation if needed. However, it does not detract from the main content.</p>
         </aside>
+
+        <!-- Detals tag used in collapsable element-->
+        <details>
+            <summary>This is a DETAILS element. Click to Show More</summary>
+            <p>This is the extra info that was hidden before.</p>
+        </details>
+          
 
         <!-- Figure-->
         <figure>
@@ -302,6 +312,19 @@
             ">This is an item with fixed position top 20px; right 20px, text align center</p>
             </p>
          </div>
+
+         <br><br>
+         <p style="
+         border: 1px solid rgb(34, 62, 187);
+         border-radius: 10px;
+         display: flex;
+         justify-content: center;
+         color:rgb(34, 62, 187)
+         ">This is an item with flex display
+            <p>This is a child component</p>
+        </p>
+
+        </p>
 
     </body>
 </html>
